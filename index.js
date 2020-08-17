@@ -18,5 +18,5 @@ function destructivelyPrependKitten(name){
   return kittens;
 }
 function appendKitten(name){
-  return kittens[...kittens, name]
+  return kittens[...kittens, name];
 }
