@@ -18,7 +18,7 @@ function destructivelyPrependKitten(name){
   return kittens;
 }
 function appendKitten(name){
-  kittens.concat(name);
+  kittens.push(name);
   return kittens
 } appendKitten("Broom");
 console.log(kittens);
