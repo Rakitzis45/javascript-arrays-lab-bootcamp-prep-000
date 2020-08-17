@@ -5,3 +5,7 @@ function destructivelyAppendKitten(name){
   kittens.push(name);
   return kittens;
 }
+function destructivelyRemoveLastKitten(){
+  kitten.slice(0, kitten.length - 1)
+  return kitten;
+}
