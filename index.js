@@ -20,4 +20,5 @@ function destructivelyPrependKitten(name){
 function appendKitten(name){
   kittens.concat(name);
   return kittens
-}
+} appendKitten("Broom");
+console.log(kittens);
