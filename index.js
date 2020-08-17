@@ -6,6 +6,6 @@ function destructivelyAppendKitten(name){
   return kittens;
 }
 function destructivelyRemoveLastKitten(){
-  kitten.slice(0, kitten.length - 1)
+  kitten.pop()
   return kitten;
 }
